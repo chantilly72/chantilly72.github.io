@@ -1,0 +1,102 @@
+// start
+
+$green: #4dbd33
+$topbar_height: 3rem
+$side-w: 22%
+$hover: #eaf4f9
+$line: #ececec
+
+nav,
+nav ul,
+nav ul li,
+nav ul li a
+  padding: 0
+  margin: 0
+  list-style: none
+  text-decoration: none
+
+
+// show hide behaviour only
+nav
+  ul
+    display: none
+
+  // hide checkbox
+  input[type=checkbox]
+    position: absolute
+    left: -9999px
+
+  // show menu when checked
+  input:checked ~ ul
+    display: block
+
+// Mobile home icon
+nav
+  #mobile-home
+    a
+      position: absolute
+      top: 0
+      left: 0
+      height: $topbar_height - 1rem
+      width: $topbar_height - 1rem
+      padding: .5rem
+
+      &:hover
+        background: $hover
+
+      img
+        width: 100%
+
+
+nav
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 200
+  width: 100%
+  height: $topbar_height
+  border-bottom: 1px solid $line
+
+  label
+    position: absolute
+    right: 0
+    top: 0
+    height: $topbar_height
+    width: $topbar_height
+    line-height: $topbar_height
+    text-align: center
+    font-size: $topbar_height
+    cursor: pointer
+    color: #fff
+
+    &:hover
+      background: $hover
+
+  ul
+    border-top: 1px solid #fff
+    margin-top: $topbar_height
+    width: 100%
+
+    li
+      position: relative
+      border-bottom: 1px solid #fff
+      background: $hover
+
+      &:hover
+        background: #fff
+
+      a
+        display: block
+        font-size: 1rem
+        line-height: $topbar_height
+        padding: 0rem 2rem
+        font-weight: bold
+
+      ul
+        display: block
+        position: absolute
+        top: -$topbar_height
+        border-top: 0
+
+
+// end

@@ -1,0 +1,177 @@
+// start
+
+$green: #4dbd33
+$brown: #988360
+$topbar_height: 3rem
+$side-w: 22%
+$hover: #eaf4f9
+$line: #ececec
+
+
+//
+// The Aside is chopped up and distibuted to suit mobile site.
+//
+
+// Aside - Logo
+aside
+  #logo
+    position: fixed
+    z-index: 100
+    top: 0
+    left: 0
+    width: 100%
+    height: $topbar_height
+    text-align: center // center content
+    background: $green
+
+    .content
+      display: inline-block // center content
+
+    img
+      height: $topbar_height
+      display: block
+      float: left
+
+    @media only screen and (max-width: 500px)
+      img
+        display: none
+
+    img:first-child
+      display: none
+
+  #site-name
+    line-height: $topbar_height
+    font-size: 2.2rem
+    font-weight: normal
+    padding-left: .2rem
+    display: block
+    float: left
+    color: #fff
+    font-weight: normal
+    // color: #cad9e2
+    // text-shadow: 1px 1px 1px #1d2782
+
+// Aside - [div1] Dog walking & pet care [div2] Wells somerset
+aside
+  .content
+    div:first-child,
+    div:nth-child(2)
+      ul
+        list-style: none
+        padding: 0
+        margin: 0
+        display: block
+        text-align: center // center content
+        background: $brown
+        color: #fff
+        font-family: 'marker'
+
+        li
+          display: inline-block // center content
+
+      // div
+      &:first-child
+        ul
+          padding-top: .7rem
+          padding-bottom: .2rem
+          border-radius: .15rem .15rem 0rem 0rem
+
+          li
+            font-size: 1.4rem
+            line-height: 1.4rem
+
+      // div
+      &:nth-child(2)
+        ul
+          padding-bottom: .5rem
+          border-radius: 0rem 0rem .15rem .15rem
+
+          li
+            font-size: .8rem
+            line-height: .8rem
+
+// Aside - [div3] Phone number
+aside
+  .content
+    div:nth-child(3)
+      ul
+        width: 100%
+        position: fixed
+        z-index: 400
+        left: 0
+        bottom: 0rem
+        background: $green
+        list-style: none
+        padding: 0
+        margin: 0
+
+        li
+          display: block
+          border-bottom: 1px solid #fff
+          margin: 0
+          text-align: center
+
+          a
+            display: block
+            line-height: 2rem
+            font-size: 1rem
+            font-weight: bold
+            color: #fff
+            text-decoration: none
+
+            &:hover
+              background: $hover
+              color: #35393b
+
+// Aside - [div4] Bullet points
+aside
+  .content
+    div:nth-child(4)
+      display: none
+
+//
+// Banner
+//
+
+#main-content
+  padding: 2rem
+
+  #banner
+    position: relative
+
+    img
+      width: 100%
+      border-radius: .15rem
+
+    #location
+      position: absolute
+      right: .4rem
+      bottom: .4rem
+      font-size: .9rem
+      color: #fff
+
+@media only screen and (max-width: 500px)
+  #main-content
+    padding: .75rem
+
+//
+// Content
+//
+
+main
+  padding: 2rem 0rem 8rem 0rem
+
+// end
+
+
+
+
+
+
+
+
+
+
+
+
+// end

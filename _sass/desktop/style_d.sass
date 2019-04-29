@@ -1,0 +1,105 @@
+// start
+
+$green: #4dbd33
+$topbar_height: 3rem
+$side-w: 22%
+$hover: #eaf4f9
+$line: #ececec
+
+//
+// Aside
+//
+
+// logo & sitename
+aside
+  #logo
+    padding-top: 1rem
+    img
+      width: 100%
+
+    img:nth-child(2)
+      display: none
+
+  #site-name
+    position: absolute
+    color: $green
+    visibility: none
+
+aside
+  .content
+    padding: 0rem 1rem
+
+    div
+      display: block
+      text-align: center
+
+      ul
+        list-style: none
+        margin: 0
+        padding: 1rem 0
+        clear: both
+        color: #fff
+        display: inline-block
+        font-size: 1rem
+        border-bottom: 1px solid $line
+        font-weight: bold
+
+        li
+          font-size: 1rem
+          line-height: 1.3rem
+          padding: .1rem 0rem
+
+          a
+            color: #fff
+            text-decoration: none
+
+      // modify first + second divs
+      &:first-child,
+      &:nth-child(2)
+        ul
+          li
+            font-size: 1.5rem
+            line-height: 1.9rem
+
+            .mobile-comma
+              display: none
+
+            &.mini
+              font-size: .8rem
+              line-height: .8rem
+
+      // modify phone number divs
+      &:nth-child(3)
+        ul
+          li:first-child,
+          li:nth-child(2)
+            pointer-events: none
+//
+// Banner
+//
+
+#main-content
+  padding: 2rem
+
+  #banner
+    position: relative
+
+    img
+      width: 100%
+      border-radius: .15rem
+
+    #location
+      position: absolute
+      right: .4rem
+      bottom: .4rem
+      font-size: .9rem
+      color: #fff
+
+//
+// Content
+//
+
+main
+  padding: 2rem 0
+
+// end

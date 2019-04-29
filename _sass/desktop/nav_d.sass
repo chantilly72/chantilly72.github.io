@@ -1,0 +1,76 @@
+// start
+
+$green: #4dbd33
+$topbar_height: 3rem
+$side-w: 22%
+$hover: #eaf4f9
+$line: #ececec
+
+// Reset
+nav,
+nav ul,
+nav ul li,
+nav ul li a
+  padding: 0
+  margin: 0
+  list-style: none
+  text-decoration: none
+
+// Show / Hide
+nav
+  ul      
+    li ul
+      visibility: hidden
+
+    li:hover ul
+      visibility: visible
+
+// Mobile home icon
+nav
+  #mobile-home
+    display: none
+
+nav
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 100
+  width: 100%
+  height: $topbar_height
+  background: #fff
+  border-bottom: 1px solid $line
+
+  input,
+  label
+    display: none
+
+  ul
+    float: right
+
+    li
+      float: left
+
+      a
+        display: block
+        font-size: 1rem
+        line-height: $topbar_height
+        padding: 0rem 1rem
+        color: grey
+        font-weight: bold
+
+        &:hover
+          background: $hover
+
+      ul
+        background: #fff
+
+
+        li
+          width: 100%
+          clear: both
+          border-bottom: 1px solid $line
+
+          &:first-child
+            border-top: 1px solid $line
+
+// end
