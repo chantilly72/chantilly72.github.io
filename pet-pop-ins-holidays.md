@@ -6,14 +6,14 @@ description: Pet Pop-ins & Holidays where each visit is around 30 minutes, from 
 
 # Pet Pop-ins & Holidays
 
-## £12 to include 2 daily visits (am & pm)
+## £12 to include 2 daily visits
 
 ### £7 for 1 visit
 
-Each visit is around 30 minutes. Pet fed, let in/out, fuss and play etc.
+Each visit is around 30 minutes. Pets fed, let in/out, fuss and play etc.
 
-I can also switch lights on/off, open/close curtains, water plants & seeds etc.
+I am also happy to switch lights on/off, open/close curtains, water plants etc.
 
-This is ideal if you are out for the day/night, away for a couple of days or a longer period of time.
+This is ideal if your pet just needs a lunchtime break, if you are out for the day/night, away for a couple of days or a longer period of time.
 
 Extra may be charged for multiple pets.
