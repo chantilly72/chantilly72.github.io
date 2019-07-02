@@ -14,6 +14,4 @@ Each visit is around 30 minutes. Pets fed, let in/out, fuss and play etc.
 
 I am also happy to switch lights on/off, open/close curtains, water plants etc.
 
-This is ideal if your pet just needs a lunchtime break, if you are out for the day/night, away for a couple of days or a longer period of time.
-
-Extra may be charged for multiple pets.
+This is ideal if your pet just needs a lunchtime break, if you are out for the day/night or away for a longer period of time.
