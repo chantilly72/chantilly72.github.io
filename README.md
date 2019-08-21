@@ -1,2 +1,2 @@
 # chantilly72.github.io
-Happt Tailz
+Happy Tailz
