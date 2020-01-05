@@ -6,7 +6,7 @@ description: Dog walking locally on a on to one basis from £8 for approx 45 min
 
 # Dog Walking
 ## £8 (approx 45mins)
-### Additional dogs from same household + £2
+### Additional dogs from same household + £3
 
 All dogs are walked from their home on a one-to-one basis unless otherwise agreed.
 This guarantees each dog 100% attention and fuss!!
