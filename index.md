@@ -6,7 +6,7 @@ description: Happy Tailz, a professional, friendly dog walking and pet care serv
   credit debit cards accepted, dogs walked locally one to one, prices from £8.
 ---
 
-# From Goldfish to Great Danes!
+# From Guinea Pigs to Great Danes!
 ## 100% fuss guaranteed!
 
 Hi! I offer a professional, friendly dog walking and pet care service based in beautiful Wells, Somerset.
