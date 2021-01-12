@@ -1,8 +1,8 @@
 ---
 title: Payment
 layout: default
-description: Payment methods accepted are cash, credit debit cards via online payments
-  at Stripe.com.
+description: Payment methods accepted are cash & online banking.
+
 ---
 
 # Payment
